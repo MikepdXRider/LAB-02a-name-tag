@@ -9,12 +9,23 @@
 </head>
 <body>
     <main class="sticker-back">
-         <section class="sticker-main">
+         <section class="sticker-main" id="sticker-main">
             <h1 class="hello">HELLO</h1>
             <p class="mni">my name is</p>
-            <!-- <input class="name" type="text"> -->
-            <p class="name">Michael Rider</p>
+            <p class="name" id="name">You're name here!</p>
+            <p class="gender" id="gender"></p>
         </section>
     </main>
+    <section class="userInteracts">
+        <input type="text" id="nameInput" />
+        <button class= "myButton" id=myButton>Create Name-Tag</button>
+    </section>
+    <section class="userInteracts">
+        <input type="text" id="genderInput" />
+        <button class= "myButton" id="genderButton">Set pronouns</button>
+    </section>
+    <button class="myButton userInteracts" id="colorButton">Randomize Color</button>
+    <button class="myButton userInteracts" id="fontButton">Change font</button>
+    <script src="app.js"></script>
 </body>
 </html>
