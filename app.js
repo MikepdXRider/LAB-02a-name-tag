@@ -6,7 +6,6 @@ const genderInput = document.getElementById("genderInput");
 const gender = document.getElementById("gender");
 const colorButton = document.getElementById("colorButton");
 const stickerMain = document.getElementById("sticker-main");
-console.log(stickerMain);
 
 
 myButton.addEventListener('click', () => {
@@ -24,8 +23,6 @@ const colorArray = ["red", "blue", "purple", "green", "yellow"]
 
 colorButton.addEventListener('click', () =>{
     const ranNum = Math.floor(Math.random() * 5);
-    console.log(ranNum);
-    console.log(colorArray[ranNum]);
     stickerMain.style.backgroundColor = (colorArray[ranNum]);
 });
 
